@@ -1,5 +1,5 @@
 {
-    "name": "web3",
+    "name": "@swordjs/uni-web3",
     "version": "1.8.1",
     "description": "Ethereum JavaScript API",
     "repository": "https://github.com/ethereum/web3.js",
