@@ -1,5 +1,5 @@
 {
-    "name": "web3.js",
+    "name": "@swordjs/uni-web3",
     "private": true,
     "description": "Ethereum JavaScript API wrapper repository",
     "license": "LGPL-3.0",
@@ -137,5 +137,8 @@
         "wait-port": "^0.2.9",
         "webpack": "^4.44.2",
         "webpack-cli": "^4.9.1"
+    },
+    "dependencies": {
+        "url-search-params-polyfill": "^8.1.1"
     }
 }

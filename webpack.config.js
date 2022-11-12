@@ -16,6 +16,10 @@ module.exports = {
         new webpack.SourceMapDevToolPlugin({
             filename: "[file].map",
         }),
+        // 给URLSearchParams做polyfill
+        new webpack.ProvidePlugin({
+            URLSearchParams: ["url-search-params-polyfill", "URLSearchParams"],
+        }),
         new webpack.IgnorePlugin({
             checkResource(resource) {
                 // "@ethereumjs/common/genesisStates" consists ~800KB static files which are no more needed
